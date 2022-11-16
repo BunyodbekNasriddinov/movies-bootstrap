@@ -30,3 +30,9 @@ img {
   white-space: nowrap;
   width: 1px;
 }
+
+img:hover {
+  transition: all 0.8s ease;
+  transform: scale(1.2);
+  filter: brightness(0.6);
+}
